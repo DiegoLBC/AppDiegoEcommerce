@@ -13,6 +13,6 @@ class TelaAberturaActivity : AppCompatActivity() {
     val intent: Intent = Intent(this,MainActivity::class.java)
         Handler().postDelayed({
             startActivity(intent)
-        }, 5000)
+        }, 3000)
     }
 }

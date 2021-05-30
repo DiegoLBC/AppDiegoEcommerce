@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppDiegoEcommerce">
-
+        <activity android:name=".LoginUsuario"></activity>
+        <activity android:name=".RegistroUsuarios" />
+        <activity
+            android:name=".InfoProduto"
+            android:label="@string/title_activity_info_produto" />
         <activity android:name=".TelaAberturaActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,9 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
